@@ -44,6 +44,7 @@ Este modelo posee un menor espacio entre las gráficas, lo cual indica un menor 
 En este modelo, se puede observar que logró predecir casi a la perfección la secuencia target, pero tuvo un error a la hora de realizar la transición entre los caracteres, ya que realizó dicha transición antes de lo debido.
 
 **¿Qué sucede en el código donde se señala "NOTA 1" y "NOTA 2"? ¿Para qué son necesarias estas líneas?**
+
 Los comentarios que señalan NOTA 1 y NOTA 2 son líneas donde llaman el método net.eval() y net.train() respectivamente.
 Estas líneas son necesarias para cambiar el estado de la red neuronal, ya que net.eval() se utiliza para evaluar la red neuronal
 y net.train() se utiliza para entrenar la red neuronal. Es importante cambiar el estado de la red neuronal ya que
